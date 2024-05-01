@@ -1,0 +1,105 @@
+
+body.feedback-layout {
+    background-color: #5d5863;
+    background-image: url(https://s3-eu-west-1.amazonaws.com/feedier-production/carriers/cover_11.jpg);
+}
+
+.feedback-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(229, 231, 235);
+    border-radius: .7rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding: 2rem 2rem 6rem 2rem;
+    min-height: 60vh;
+    -webkit-box-shadow: 0 .4rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,.15);
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: initial;
+    left: 0;
+    margin-bottom: 6rem;
+}
+
+.feedback-question__name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+
+.feedback-question__input-wrap {
+    margin: 1rem auto 0;
+    position: relative;
+}
+
+.rating-star {
+    font-size: 20px;
+}
+
+.feedback-form .nps-0 {
+    background: #eb2a25;
+    border-color: #ca1713;
+}
+
+.feedback-form .nps-1 {
+    background: #ed302a;
+    border-color: #d21812;
+}
+
+.feedback-form .nps-2 {
+    background: #fa443f;
+    border-color: #f9140d;
+}
+
+.feedback-form .nps-3 {
+    background: #ff8527;
+    border-color: #f36a00;
+}
+
+.feedback-form .nps-4 {
+    background: #e29305;
+    border-color: #b07304;
+}
+
+.feedback-form .nps-5 {
+    background: #f3c400;
+    border-color: #c09b00;
+}
+
+.feedback-form .nps-6 {
+    background: #c1cc00;
+    border-color: #919900;
+}
+
+.feedback-form .nps-7 {
+    background: #c1cc00;
+    border-color: #919900;
+}
+
+.feedback-form .nps-8 {
+    background: #99cf01;
+    border-color: #739c01;
+}
+
+.feedback-form .nps-9 {
+    background: #7fce00;
+    border-color: #609b00;
+}
+
+.feedback-form .nps-10 {
+    background: #32b303;
+    border-color: #248102;
+}

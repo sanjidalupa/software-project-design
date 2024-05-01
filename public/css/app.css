@@ -1,0 +1,108 @@
+
+.main-nav .nav-link.active {
+    color: #7e31cb !important;
+    border-bottom: 3px solid #7e31cb;
+}
+
+.feedback-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(229, 231, 235);
+    border-radius: .7rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding: 2rem 2rem 6rem 2rem;
+    min-height: 60vh;
+    -webkit-box-shadow: 0 .4rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,.15);
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: initial;
+    left: 0;
+    margin-bottom: 6rem;
+}
+
+.feedback-question__name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+
+.feedback-question__input-wrap {
+    margin: 1rem auto 0;
+    position: relative;
+}
+
+.single-answer__answer-content .nps-0 {
+    background: #c7b3b1;
+    border-color: #b29693;
+}
+
+.single-answer__answer-content .nps-1 {
+    background: #cd908c;
+    border-color: #be6e68;
+}
+
+.single-answer__answer-content .nps-2 {
+    background: #d29793;
+    border-color: #c3746f;
+}
+
+.single-answer__answer-content .nps-3 {
+    background: #d6ac90;
+    border-color: #c8906b;
+}
+
+.single-answer__answer-content .nps-4 {
+    background: #ccb18b;
+    border-color: #bc9968;
+}
+
+.single-answer__answer-content .nps-5 {
+    background: #d4c490;
+    border-color: #c6b06b;
+}
+
+.single-answer__answer-content .nps-6 {
+    background: #c4c690;
+    border-color: #b2b56e;
+}
+
+.single-answer__answer-content .nps-7 {
+    background: #bacd8e;
+    border-color: #a4bd6b;
+}
+
+.single-answer__answer-content .nps-8 {
+    background: #b8c78f;
+    border-color: #a2b66d;
+}
+
+.single-answer__answer-content .nps-9 {
+    background: #b8c78f;
+    border-color: #a2b66d;
+}
+
+.single-answer__answer-content .nps-10 {
+    background: #b0c68e;
+    border-color: #98b56c;
+}
+
+.single-answer__answer-content .nps-selected {
+    background: #7e31cb !important;
+    border-color: #58228d !important;
+    color: #fff;
+    font-weight: 600;
+}
